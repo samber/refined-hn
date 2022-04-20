@@ -1,7 +1,7 @@
 {
     "name": "refined-hn",
     "version": "0.0.1",
-    "manifest_version": 2,
+    "manifest_version": 3,
     "description": "refined-hn",
     "icons": {
         "48": "icon-48.png"
