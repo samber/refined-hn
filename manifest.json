@@ -1,0 +1,30 @@
+{
+    "name": "refined-hn",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "refined-hn",
+    "icons": {
+        "48": "icon-48.png"
+    },
+    "default_locale": "en",
+    "background": {
+        "scripts": []
+    },
+    "permissions": [],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://news.ycombinator.com/*"
+            ],
+            "js": [
+                "hn.js"
+            ],
+            "css": [
+                "hn.css"
+            ],
+            "run_at": "document_end",
+            "all_frames": true
+        }
+    ],
+    "web_accessible_resources": []
+}
