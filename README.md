@@ -4,7 +4,7 @@
 Features:
 - Add icon to hackernews links
 
-![](https://user-images.githubusercontent.com/1268384/164220253-c0821753-0fd9-4162-8d26-a754a3cbed7c.png)
+![](./screenshot.png)
 
 ## Install
 
