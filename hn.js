@@ -7,7 +7,7 @@
 // @grant    none
 // ==/UserScript==
 
-for (let link of document.querySelectorAll('.titlelink')) {
+for (let link of document.querySelectorAll(''.titleline > a')) {
     const domain = new URL(link.href).hostname
     const imageUrl = `https://icons.duckduckgo.com/ip3/${domain}.ico`
     const image = document.createElement('img')
